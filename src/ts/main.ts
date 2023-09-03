@@ -4,8 +4,8 @@ import Highlight from 'reveal.js/plugin/highlight/highlight.esm.js';
 import Notes from 'reveal.js/plugin/notes/notes.esm.js';
 import Math from 'reveal.js/plugin/math/math.esm.js';
 import 'reveal.js/dist/reveal.css';
-import 'reveal.js/plugin/highlight/reveal.css';
-import 'main.css';
+import 'reveal.js/plugin/highlight/monokai.css';
+import '#/css/main.css';
 
 let deck = new Reveal({
   hash: true,
